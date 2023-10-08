@@ -4,18 +4,25 @@ import './location.css';
 
 const Location = () => {
   return (
-    <div className="rideease__possibility section__padding" id="location">
-      <div className="rideease__location-image">
-        <img src={locationImage} alt="location" />
+    <div className='rideease__possibility section__padding' id='location'>
+      <div className='rideease__location-image'>
+        <img src={locationImage} alt='location' />
       </div>
-      <div className="rideease__possibility-content">
-        <h4>Register to Get Started</h4>
-        <h1 className="gradient__text">The possibilities are <br /> beyond your imagination</h1>
-        <p>With our presence in every continent of the world, we bring you ease of travels and the possibilities that we offer are numerous.</p>
-        <h4>Register to Get Started</h4>
+      <div className='rideease__possibility-content'>
+        {/* <h4>Register to Get Started</h4> */}
+        <h1 className='gradient__text'>
+          Unlock the Future of Navigation: Discover the Power of Our
+          Cutting-Edge GPS Satellite Technology!
+        </h1>
+        <p>
+          Join the countless satisfied travelers who have embraced the future of
+          navigation with RideEase. Say goodbye to travel stress, and hello to a
+          world of convenience and confidence. Your journey begins with us.
+        </p>
+        <h4>Let every trip be a seamless adventure!</h4>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Location
+export default Location;
